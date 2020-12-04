@@ -1,7 +1,7 @@
 @echo off
 
 :: LIST PACKAGES TO BUILD ::
-SET TO_BUILD=(datetime)
+SET TO_BUILD=(datetime listener)
 
 ::temporarily build datetime package cause it is used in the build
 go build -o datetime.exe ./datetime
