@@ -1,0 +1,9 @@
+# IntelliJ
+.idea/
+*.iml
+
+# build output
+build/
+
+# executable files
+*.exe
