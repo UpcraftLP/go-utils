@@ -6,6 +6,7 @@ import (
 	"strings"
 )
 
+// these will be replaced on build
 var Name = "NULL"
 var Version = "DEVELOPMENT"
 var BuildTime = "INVALID"

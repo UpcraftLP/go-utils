@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"time"
-	"utils/src/info"
+	"utils/internal/info"
 )
 
 func main() {

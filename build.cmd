@@ -4,14 +4,14 @@
 SET TO_BUILD=(datetime listener)
 
 ::temporarily build datetime package cause it is used in the build
-go build -o datetime.exe ./datetime
+go build -o datetime.exe ./cmd/datetime
 
 :: SETUP ::
 FOR /F %%i IN ('datetime') DO SET BUILD_TIME=%%i
 ECHO Time is %BUILD_TIME%.
 
 :: optional
-::RMDIR "./build" /S /Q
+::RMDIR "./bin" /S /Q
 
 SET APP_VERSION=%1
 IF NOT DEFINED APP_VERSION (SET APP_VERSION=%VERSION%)

@@ -9,8 +9,8 @@ import (
 	"net"
 	"os"
 	"strconv"
-	"utils/src/info"
-	"utils/src/netutils"
+	"utils/internal/info"
+	"utils/pkg/netutils"
 )
 
 const receiveBufferSizeKey = "LISTENER_RECEIVE_BUFFER_SIZE"

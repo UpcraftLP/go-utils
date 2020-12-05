@@ -3,7 +3,7 @@
 *.iml
 
 # build output
-build/
+bin/
 
 # executable files
 *.exe
