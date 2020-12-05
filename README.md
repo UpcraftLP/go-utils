@@ -20,5 +20,5 @@ build.cmd 1.0.0
 
 
 
-You will then find the outputs in the `build` directory.
+You will then find the outputs in the `bin` directory.
 
