@@ -8,16 +8,27 @@ Monorepo for a bunch of small command line utilities, written in [go](https://go
 
 to build all tools, simply run the `build` script:
 
-*in **CMD**:*
+in **CMD**:
 
 ```cmd
 build.cmd 1.0.0
 ```
 
-*in **Powershell**:*
+in **Powershell**:
 
 ```powershell
 .\build.cmd 1.0.0
+```
+
+
+
+on **Linux**:
+
+###### *Note: This currently still only builds the windows targets, due to npipe not being available for linux.*
+
+```sh
+chmod +x build
+./build 1.0.0
 ```
 
 
