@@ -19,6 +19,9 @@ const defaultReceiveBufferSize = 32
 func main() {
 	info.CheckPrintInfo()
 	args := os.Args[1:]
+
+	//TODO listener server mode
+
 	if len(args) != 1 {
 		log.Fatalf("got %v arguments, expected 1\n", len(args))
 	}
