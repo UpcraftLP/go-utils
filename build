@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+go run internal/make/make.go $1
