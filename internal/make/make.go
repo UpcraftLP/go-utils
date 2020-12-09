@@ -12,7 +12,7 @@ import (
 )
 
 var (
-	goCmd         = "D:\\Files\\GoLang\\go1.15.5\\bin\\go.exe"
+	goCmd         = "go"
 	version       = "development-preview"
 	buildFlags    = []string{"-s", "-w"}
 	buildPath     = "./bin"
