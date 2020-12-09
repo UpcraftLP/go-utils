@@ -8,5 +8,5 @@ import (
 
 func main() {
 	info.CheckPrintInfo()
-	fmt.Print(time.Now().Unix())
+	fmt.Println(time.Now().Unix())
 }
