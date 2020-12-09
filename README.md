@@ -73,5 +73,19 @@ listener 22
 
 
 
----
+
+
+### time
+
+A utility to record the execution time of another process or command.
+
+**Usage:**
+
+```cmd
+# parameters are treated as arguments for the application,
+# so this launches 'cmd /c exit 1'
+#
+# Output: Process finished after 16.9926ms with exit code 1
+time cmd /c exit 1
+```
 
