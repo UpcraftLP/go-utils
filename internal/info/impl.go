@@ -3,15 +3,15 @@ package info
 import "strings"
 
 type appInfoImpl struct {
-	AppName string
-	AppVersion string
+	AppName      string
+	AppVersion   string
 	AppBuildTime string
 }
 
 func getAppInfoInternal() AppInfo {
 	return appInfoImpl{
-		AppName: strings.ToUpper(Name),
-		AppVersion: Version,
+		AppName:      strings.ToUpper(Name),
+		AppVersion:   Version,
 		AppBuildTime: BuildTime,
 	}
 }

@@ -128,8 +128,6 @@ func main() {
 				panic(err)
 			}
 
-
-
 			buildCmd := getBuildCmd(info, target, prefixedAppVersion, buildTime)
 			//goland:noinspection GoBoolExpressions
 			if verboseOutput {
@@ -167,8 +165,7 @@ func getBuildCmd(info BuildInfo, target BuildTarget, prefixedAppVersion, buildTi
 	}
 	ldFlags += strings.Join(variableFlags, " ")
 
-
-return []string{goCmd, "build", "-o", fmt.Sprintf("%v/%v/%v", buildPath, version, target.OS.PathBuilder(info.Name, target.Arch)), "-ldflags", ldFlags, info.FullPath}
+	return []string{goCmd, "build", "-o", fmt.Sprintf("%v/%v/%v", buildPath, version, target.OS.PathBuilder(info.Name, target.Arch)), "-ldflags", ldFlags, info.FullPath}
 }
 
 func checkVersionFromArgs() (string, string) {
