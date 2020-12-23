@@ -3,12 +3,12 @@ package main
 import (
 	"fmt"
 	"github.com/karrick/godirwalk"
+	"github.com/upcraftlp/go-utils/pkg/sysutils"
 	"log"
 	"os"
 	"path/filepath"
 	"strings"
 	"time"
-	"utils/pkg/sysutils"
 )
 
 var (

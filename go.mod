@@ -1,4 +1,4 @@
-module utils
+module github.com/upcraftlp/go-utils
 
 go 1.15
 
